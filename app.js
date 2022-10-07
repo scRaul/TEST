@@ -128,7 +128,11 @@ function getNextGame() {
   return null;
 }
 function printCertificate() {
-  window.open("Images/apple.png", '_blank');
-  alert("end");
-  // p.print();
+    let page = "Images/apple.png";
+    if(page != undefined){
+        console.log(page);
+        setTimeout(() => {
+        window.open(page,'_blank');
+        },100);
+    }
 }
