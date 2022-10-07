@@ -1,0 +1,29 @@
+/* 
+home,body{
+    background-color: black;
+}
+ */
+canvas{
+    top:auto;
+    left:auto;
+    border: 2px solid red;
+}
+
+#Progress {
+  margin: auto;
+  width:200px;
+/*   width: 100%; */
+  background-color: #e6e6e6;
+  opacity: 10;
+}
+
+#Bar {
+  height: 12px;
+  background-color: #0091ff;
+}
+
+#Percent {
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
